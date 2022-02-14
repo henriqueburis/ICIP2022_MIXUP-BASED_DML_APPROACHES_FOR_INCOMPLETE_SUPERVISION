@@ -1,7 +1,7 @@
 # MbDML - MIXUP-BASED DEEP METRIC LEARNING FOR WEAKLY SUPERVISED LEARNING
 
 
-## MSGAM
+## MbDML
 you can now run the python scrypt with the following command:
 
 ```sh
