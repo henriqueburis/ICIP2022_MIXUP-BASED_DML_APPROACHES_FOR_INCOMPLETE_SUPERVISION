@@ -37,3 +37,4 @@ python3 train_MbDML3_MixupNNGK_NNGK.py --max_epochs=200 --name "CIFAR10-MbDML3_M
 ```
 
 
+## Comparison
