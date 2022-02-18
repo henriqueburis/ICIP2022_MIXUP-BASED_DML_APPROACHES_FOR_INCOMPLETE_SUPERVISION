@@ -12,20 +12,10 @@
 - `train_NNGK.py` : nngk original.
 
 
-## Installation
-- from sklearn.datasets import load_files
-- from keras.preprocessing.image import img_to_array
-- from sklearn.cluster import KMeans
-- from sklearn.preprocessing import LabelEncoder
-- from sklearn import preprocessing
-- from sklearn import decomposition
-- from sklearn.manifold import TSNE
-- import matplotlib.pyplot as plt
-- import seaborn as sns
-- import matplotlib.patheffects as PathEffects
-- import numpy as np
-- import cv2
-- import argparse
+## Requirements and Installation
+- Python version 3.6
+- A [PyTorch installation](http://pytorch.org/)
+- A [Pytorch-Metric-Learning installation](https://kevinmusgrave.github.io/pytorch-metric-learning/#installation)
 
 
 ## MbDML
