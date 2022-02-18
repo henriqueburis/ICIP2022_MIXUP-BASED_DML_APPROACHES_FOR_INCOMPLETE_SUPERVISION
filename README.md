@@ -4,7 +4,7 @@
 - https://github.com/facebookresearch/mixup-cifar10
 - https://kevinmusgrave.github.io/pytorch-metric-learning/
 
-# Code organization
+## Code organization
 
 - `train_MbDML1-NNGK_Mixup.py`: Esta abordagem chamada $NNGK+Mixup$ é uma simples combinação entre as funções de perdas das abordagens originais (NNGK e Mixup para compor a função de perda final desta abordagem. Essa  combinação de funções de perdas é utilizada durante o processo de treinamento, calculando-se a perda de ambas abordagens originais em cada lote e a retropropagação do erro é realizado na arquitetura CNN levando-se em consideração a função final combinada definida pela soma dos valores das funções de perda. 
 - `train_MbDML2_MixupNNGK.py` : trai.
