@@ -36,7 +36,7 @@ python3 train_MbDML3_MixupNNGK_NNGK.py --max_epochs=200 --name "CIFAR10-MbDML3_M
 
 ```
 
-## Accuracy Test
+## Accuracy Test .....corrigindo.
 
 CIFAR100 - Train    |  CIFAR100 - Test
 :-------------------------:|:-------------------------:
