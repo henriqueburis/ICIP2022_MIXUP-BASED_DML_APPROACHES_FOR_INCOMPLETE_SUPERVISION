@@ -16,6 +16,7 @@
 - Python version 3.6
 - A [PyTorch installation](http://pytorch.org/)
 - A [Pytorch-Metric-Learning installation](https://kevinmusgrave.github.io/pytorch-metric-learning/#installation)
+- pip install -r requirements.txt
 
 
 ## MbDML
