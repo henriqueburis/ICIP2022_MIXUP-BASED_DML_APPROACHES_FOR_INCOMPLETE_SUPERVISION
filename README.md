@@ -43,6 +43,15 @@ CIFAR100 - Train    |  CIFAR100 - Test
 :-------------------------:|:-------------------------:
 ![](https://github.com/henriqueburis/Weekly-Learning_DML-Mixup_GAN/blob/main/figure/CIFAR100%20-%20XL10%25%20ACC%20-%20accuracy.png) |  ![](https://github.com/henriqueburis/Weekly-Learning_DML-Mixup_GAN/blob/main/figure/CIFAR100%20-%20XL10%25%20ACC%20-%20test.png) 
 
+## Different Embeddings
+Different embeddings defined by each approach: (a) samples in the feature space defined by a pre-trained CNN, (b)
+same samples projected onto a Gaussian kernel, (c) samples in the feature space of the pre-trained CNN together with the new
+samples created by Mixup, and (d) samples in the feature space by the combination of NNGK and Mixup. Notice that, in this
+paper, there are these four possible kinds of feature spaces, therefore the three proposed approaches based on Mixup (MbDML)
+are some combination of the existing feature spaces.
+
+![N|Solid](https://github.com/henriqueburis/ICIP2022/blob/main/fig/spaces_b.png?raw=true )
 
 ## Comparison
+Mean accuracies (%) and standard deviation (±) over ten runs using 10% of the training set. Similar and the most accurate results are highlighted.
 ![N|Solid](https://github.com/henriqueburis/ICIP2022/blob/main/fig/Mean%20accuracies.PNG?raw=true)
