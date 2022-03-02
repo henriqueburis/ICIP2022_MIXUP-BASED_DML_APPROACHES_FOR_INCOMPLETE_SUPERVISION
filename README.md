@@ -1,8 +1,18 @@
 # MbDML - MIXUP-BASED DEEP METRIC LEARNING FOR WEAKLY SUPERVISED LEARNING
 
+By [Luiz H. Buris](http://), [Fabio A. Faria](https://).
+
+UNIFESP SJC -  Instituto de Ciência e Tecnologia
+
+## Introduction
+
 - https://github.com/LukeDitria/OpenGAN
 - https://github.com/facebookresearch/mixup-cifar10
 - https://kevinmusgrave.github.io/pytorch-metric-learning/
+
+## Citation
+
+If you use this method or this code in your paper, then please cite it:
 
 ## Code organization
 
