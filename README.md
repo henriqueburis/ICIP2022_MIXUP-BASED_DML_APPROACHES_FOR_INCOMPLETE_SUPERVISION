@@ -15,6 +15,17 @@ we propose three new approaches in the context of DML. We are particularly inter
 
 If you use this method or this code in your paper, then please cite it:
 
+```
+@article{
+mbdmlXXX,
+title={MIXUP-BASED DEEP METRIC LEARNING APPROACHES FOR INCOMPLETE SUPERVISION},
+author={L...., F...., Da....., Pa.... xx},
+journal={IEEE International Conference on Image Processing (ICIP)},
+year={2022},
+url={https://},
+}
+```
+
 ## Code organization
 
 - `train_MbDML1-NNGK_Mixup.py`: Esta abordagem chamada $NNGK+Mixup$ é uma simples combinação entre as funções de perdas das abordagens originais (NNGK e Mixup para compor a função de perda final desta abordagem. Essa  combinação de funções de perdas é utilizada durante o processo de treinamento, calculando-se a perda de ambas abordagens originais em cada lote e a retropropagação do erro é realizado na arquitetura CNN levando-se em consideração a função final combinada definida pela soma dos valores das funções de perda. 
