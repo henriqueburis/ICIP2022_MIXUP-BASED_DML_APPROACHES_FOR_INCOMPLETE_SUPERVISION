@@ -5,6 +5,7 @@ By [Luiz H. Buris](http://), [Fabio A. Faria](https://).
 UNIFESP SJC -  Instituto de Ciência e Tecnologia
 
 ## Introduction
+we propose three new approaches in the context of DML. We are particularly interested in NNGK due to its robustness and simplicity. As such, we introduce variants that take advantage of Mixup to cope with metric learning in incomplete supervision scenarios.
 
 - https://github.com/LukeDitria/OpenGAN
 - https://github.com/facebookresearch/mixup-cifar10
