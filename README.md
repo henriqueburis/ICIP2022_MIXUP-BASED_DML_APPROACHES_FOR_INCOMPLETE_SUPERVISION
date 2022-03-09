@@ -74,6 +74,10 @@ are some combination of the existing feature spaces.
 
 ![N|Solid](https://github.com/henriqueburis/ICIP2022/blob/main/fig/spaces_b.png?raw=true )
 
+CIFAR100   |   CIFAR100
+:-------------------------:|:-------------------------:
+![](https://github.com/henriqueburis/ICIP2022/blob/main/fig/cifar10_tsne.gif) |  ![](https://github.com/henriqueburis/ICIP2022/blob/main/fig/cifar100_tsne.gif) 
+
 ## Comparison
 Mean accuracies (%) and standard deviation (±) over ten runs using 10% of the training set. Similar and the most accurate results are highlighted.
 ![N|Solid](https://github.com/henriqueburis/ICIP2022/blob/main/fig/Mean%20accuracies.PNG?raw=true)
