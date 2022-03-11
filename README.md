@@ -74,6 +74,8 @@ are some combination of the existing feature spaces.
 
 ![N|Solid](https://github.com/henriqueburis/ICIP2022/blob/main/fig/spaces_b.png?raw=true )
 
+As can be seen in figure the classes are consistently much better separated by the Mixup(NNGK) 
+
 CIFAR100   |   CIFAR100
 :-------------------------:|:-------------------------:
 ![](https://github.com/henriqueburis/ICIP2022/blob/main/fig/cifar10_tsne.gif) |  ![](https://github.com/henriqueburis/ICIP2022/blob/main/fig/cifar100_tsne.gif) 
