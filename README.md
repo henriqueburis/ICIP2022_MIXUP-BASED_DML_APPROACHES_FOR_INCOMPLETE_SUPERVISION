@@ -16,13 +16,12 @@ we propose three new approaches in the context of DML. We are particularly inter
 If you use this method or this code in your paper, then please cite it:
 
 ```
-@article{
-mbdmlXXX,
-title={MIXUP-BASED DEEP METRIC LEARNING APPROACHES FOR INCOMPLETE SUPERVISION},
-author={L...., F...., Da....., Pa.... xx},
-journal={IEEE International Conference on Image Processing (ICIP)},
-year={2022},
-url={https://},
+@article{buris2022mixup,
+  title={Mixup-based Deep Metric Learning Approaches for Incomplete Supervision},
+  author={Buris, Luiz H and Pedronette, Daniel CG and Papa, Joao P and Almeida, Jurandy and Carneiro, Gustavo and Faria, Fabio A},
+  journal={arXiv preprint arXiv:2204.13572},
+  year={2022},
+  url={https:https://arxiv.org/pdf/2204.13572.pdf},
 }
 ```
 
