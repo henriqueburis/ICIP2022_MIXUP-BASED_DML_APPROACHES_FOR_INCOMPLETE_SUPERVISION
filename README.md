@@ -58,9 +58,11 @@ python3 train_MbDML3_MixupNNGK_NNGK.py --max_epochs=200 --name "CIFAR10-MbDML3_M
 
 ```
 
-## Accuracy Test .....corrigindo.
+## Accuracy curves
 
-CIFAR100 - Train    |  CIFAR100 - Test
+Figures show the accuracy curves of each of the proposed supervised approaches $MbDML1$, $MbDML2$ and $MbDML3$ compared to the original NNGK and Mixup approaches during each epoch of the training process and every $5 epochs in the test set, in the four image bases adopted in this experiment (CIfar10, CIfar100, MNIST and Flowers17).
+
+CIFAR10 - Train    |  CIFAR10 - Test
 :-------------------------:|:-------------------------:
 ![](https://github.com/henriqueburis/Weekly-Learning_DML-Mixup_GAN/blob/main/figure/CIFAR100%20-%20XL10%25%20ACC%20-%20accuracy.png) |  ![](https://github.com/henriqueburis/Weekly-Learning_DML-Mixup_GAN/blob/main/figure/CIFAR100%20-%20XL10%25%20ACC%20-%20test.png) 
 
