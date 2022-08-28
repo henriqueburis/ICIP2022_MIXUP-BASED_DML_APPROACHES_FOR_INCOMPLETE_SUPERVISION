@@ -27,10 +27,10 @@ If you use this method or this code in your paper, then please cite it:
 
 ## Code organization
 
-- `train_MbDML1-NNGK_Mixup.py`: Esta abordagem chamada $NNGK+Mixup$ é uma simples combinação entre as funções de perdas das abordagens originais (NNGK e Mixup para compor a função de perda final desta abordagem. Essa  combinação de funções de perdas é utilizada durante o processo de treinamento, calculando-se a perda de ambas abordagens originais em cada lote e a retropropagação do erro é realizado na arquitetura CNN levando-se em consideração a função final combinada definida pela soma dos valores das funções de perda. 
-- `train_MbDML2_MixupNNGK.py` : trai.
-- `train_MbDML3_MixupNNGK_NNGK.py` : train.
-- `train_NNGK.py` : nngk original.
+- `train_MbDML1-NNGK_Mixup.py`: This approach is a simple combination between the loss functions of the original approaches (NNGK and Mixup to compose the final loss function of this approach.
+- `train_MbDML2_MixupNNGK.py` : In this approach called $MbDML-2$, the images $x_i$ and $x_j$ from the training dataset and their respective labels $y_i$ and $y_j$ within the batch are interpolated by the Mixup method, are passed through the CNN network pre -trained and classified by the $NNGK$ classifier.
+- `train_MbDML3_MixupNNGK_NNGK.py` : This approach, called $MbDML-3$, is the simple linear combination between the loss function $MbDML-2$ and the original loss function $NNGK$.
+- `train_NNGK.py` :This $NNGK$ approach is the original of the article that was proposed for improvement.
 
 
 ## Requirements and Installation
