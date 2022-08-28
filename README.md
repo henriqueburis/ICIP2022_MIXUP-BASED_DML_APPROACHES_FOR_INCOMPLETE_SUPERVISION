@@ -64,7 +64,19 @@ Figures show the accuracy curves of each of the proposed supervised approaches $
 
 CIFAR10 - Train    |  CIFAR10 - Test
 :-------------------------:|:-------------------------:
-![](https://github.com/henriqueburis/Weekly-Learning_DML-Mixup_GAN/blob/main/figure/CIFAR100%20-%20XL10%25%20ACC%20-%20accuracy.png) |  ![](https://github.com/henriqueburis/Weekly-Learning_DML-Mixup_GAN/blob/main/figure/CIFAR100%20-%20XL10%25%20ACC%20-%20test.png) 
+![](https://github.com/henriqueburis/ICIP2022/blob/main/fig/Cifar10-XL10_ACC_Train.png) |  ![](https://github.com/henriqueburis/ICIP2022/blob/main/fig/Cifar10-XL10_ACC_Test.png) 
+
+CIFAR100 - Train    |  CIFAR100 - Test
+:-------------------------:|:-------------------------:
+![](https://github.com/henriqueburis/ICIP2022/blob/main/fig/Cifar100-XL10_ACC_Train.png) |  ![](https://github.com/henriqueburis/ICIP2022/blob/main/fig/Cifar100-XL10_ACC_Test.png) 
+
+MNIST - Train    |  MNIST - Test
+:-------------------------:|:-------------------------:
+![](https://github.com/henriqueburis/ICIP2022/blob/main/fig/Mnist-XL10_ACC_Train.png) |  ![](https://github.com/henriqueburis/ICIP2022/blob/main/fig/Mnist-XL10_ACC_Test.png) 
+
+FLOWER17 - Train    |  FLOWER17 - Test
+:-------------------------:|:-------------------------:
+![](https://github.com/henriqueburis/ICIP2022/blob/main/fig/Flower17-XL10_ACC_Train.png) |  ![](https://github.com/henriqueburis/ICIP2022/blob/main/fig/Flower17-XL10_ACC_Test.png) 
 
 ## Different Embeddings
 Different embeddings defined by each approach: (a) samples in the feature space defined by a pre-trained CNN, (b)
@@ -72,14 +84,10 @@ same samples projected onto a Gaussian kernel, (c) samples in the feature space 
 samples created by Mixup, and (d) samples in the feature space by the combination of NNGK and Mixup. Notice that, in this
 paper, there are these four possible kinds of feature spaces, therefore the three proposed approaches based on Mixup (MbDML)
 are some combination of the existing feature spaces.
+As can be seen in figure the classes are consistently much better separated by the Mixup(NNGK) 
 
 ![N|Solid](https://github.com/henriqueburis/ICIP2022/blob/main/fig/spaces_b.png?raw=true )
 
-As can be seen in figure the classes are consistently much better separated by the Mixup(NNGK) 
-
-CIFAR10   |   CIFAR100
-:-------------------------:|:-------------------------:
-![](https://github.com/henriqueburis/ICIP2022/blob/main/fig/cifar10_tsne.gif) |  ![](https://github.com/henriqueburis/ICIP2022/blob/main/fig/cifar100_tsne.gif) 
 
 ## Comparison
 Mean accuracies (%) and standard deviation (±) over ten runs using 10% of the training set. Similar and the most accurate results are highlighted.
